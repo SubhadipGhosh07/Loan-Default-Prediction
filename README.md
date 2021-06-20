@@ -7,7 +7,7 @@ Defaulting on a loan will cause a substantial and lasting drop in the debtor's c
 
 
 ### Our Model Summary:
-* Developed an XGBoost binary classifier to predict whether a customer will default on a loan and achieved the AUPRC scores of 92% and 88% on test data respectively.
+* Developed an XGBoost binary classifier to predict whether a customer will default on a loan and achieved the AUPRC scores of 94% on test data respectively.
 * Basic data inspection by Exploratory Data Analysis using Matplotlib and Seaborn giving an in-depth intuition to the important features of our dataset.
 * Missing value imputation using KNN-Imputer, implemented SMOTE boosting, and carried out hyperparameter tuning using Bayesian optimization.
 * Obtained Model Reason Codes (MRCs) by leveraging the concept of SHAP plots to cater to customer grievances and analyzed the Gains table to decide rejection cutoff.
