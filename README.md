@@ -12,11 +12,11 @@ Defaulting on a loan will cause a substantial and lasting drop in the debtor's c
 
 
 ## **Data Pipelines:**
-* In this phase, we’ve removed unnecessary features. Since there were many columns with more than 70% of null values.
-* In this section, we manually went through each feature, analysed them using EDA and encoded them into Label and One Hot encode.
-* We used visualization tools like seaborn and matplotlb to get a visual analysis on the features selected in above sections.
-* In this section, we have first created a baseline model and have used XGboost as our Machine Learning architecture. 
-* Used SHAP to interpret our black-box model using force plots and feature importance plots.
+* Feature engineering: we’ve removed unnecessary features. Since there were many columns with more than 70% of null values.
+* Data Analysis: We used visualization tools like seaborn and matplotlb to get a visual analysis on the features selected in above sections.
+* Encoding of features: In this section, we manually went through each feature, analysed them using EDA and encoded them into Label and One Hot encode.
+* Model Selection: In this section, we have first created a baseline model and have used XGboost as our Machine Learning architecture. 
+* Model Interpretability: Used SHAP to interpret our black-box model using force plots and feature importance plots.
 
 
 ## Our Model Summary:
