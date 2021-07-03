@@ -3,6 +3,8 @@ Numerous companies from financial indutry often invest considerable resources to
 
 ### In this project the goal is to increase detection of defaulted loans before the loan is issued/offered by P2P lending company - Lending Club. Peer-to-peer lending differs from traditional financial institutions like banks or commercial lending companies.
 
+![Screenshot (301)](https://user-images.githubusercontent.com/83903018/124345974-ceee5e80-dbf9-11eb-866d-a4539927362c.png)
+
 
 
 ## **Problem Statement Analysis**
