@@ -11,6 +11,14 @@ Defaulting on a loan will cause a substantial and lasting drop in the debtor's c
 ###The loan is one of the most important products of the banking. All the banks are trying to figure out effective business strategies to persuade customers to apply their loans. However, **there are some customers behave negatively after their application are approved**.
 
 
+## **Data Pipelines:**
+Data processing-1: In this phase, we’ve removed unnecessary features. Since there were many columns with more than 70% of null values.
+Data processing-2: In this section, we manually went through each feature, analysed them using EDA and encoded them into Label and One Hot encode.
+EDA: We used visualization tools like seaborn and matplotlb to get a visual analysis on the features selected in above sections.
+Model training: In this section, we have first created a baseline model and have used XGboost as our Machine Learning architecture. 
+Model interpretability: Used SHAP to interpret our black-box model using force plots and feature importance plots.
+
+
 ## Our Model Summary:
 * Developed an XGBoost binary classifier to predict whether a customer will default on a loan and achieved the AUPRC scores of 94% on test data respectively.
 * Basic data inspection by Exploratory Data Analysis using Matplotlib and Seaborn giving an in-depth intuition to the important features of our dataset.
